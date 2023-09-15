@@ -10,6 +10,11 @@
 
 } 
 
-a {
+ul {
+  list-style-type: none;
   text-decoration: none;
+}
+
+.section-header-top {
+  border: 1px solid red;
 }

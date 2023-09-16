@@ -53,8 +53,7 @@ div {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-inline-start: 40px;
-    text-decoration: none;   
+    padding-inline-start: 40px;    
 }
 
 .div-header-top-right {
@@ -109,7 +108,9 @@ button {
 
 ul, li {
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
+  text-decoration: none;
+
 }
 
 
@@ -120,16 +121,24 @@ ul, li {
   "A B C"; 
 }
 
-.middle-left-page div:nth-child(1)  {
-  grid-area: A;
+.one div:nth-child(1)  {
+  grid-template-areas: A;
 }
 
-.nyt-logo div:nth-child(2) {
-  grid-area: B;
+.svg div:nth-child(2) {
+  grid-template-areas: B;
 }
 
-.stocks div .a:nth-child(3){
-  grid-area: C;
+.two div:nth-child(2) {
+  grid-template-areas: B;
+}
+
+.a div:nth-child(2) {
+  grid-template-areas: B;
+}
+
+.three div:nth-child(3){
+  grid-template-areas: C;
 }
 
 .middle-left-page {

@@ -39,40 +39,99 @@
     --color-static-gray100: hsla(0,0%,0%,1);
 }
 
-.section-header-top {
-  border: 1px solid red;
-}
-
-.div-middle-left-page {
-  font-size: 1.2rem;
-}
-
-. {
-    
-    font-size: 100%;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    text-size-adjust: 100%;
-    font: inherit;
-    vertical-align: baseline;
+body {
+  width: 103.591rem;
 }
 
 div {
   border: 1px solid red;
   }
 
-  span {
-    border: 1px solid blue;
-  }
-
-li, a {
+ li {
     display: block;    
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
-
     text-decoration: none;   
+}
+
+.div-header-top-right {
+ display: flex;
+ justify-content: space-around; 
+ align-items: center;
+}
+
+.css-bars-navigation-button, img .css-bars-navigation-button, img
+{
+ width: 16px;
+ height: 16px;
+}
+
+button {
+  width: 34px;
+  height: 34px;
+}
+
+.subscribe, .login {
+  font-size: 1.1rem;
+}
+
+.header-medium {
+ width: 100%;
+ height: 5.8rem;
+ 
+}
+
+
+.section-header-top {
+  display: grid;
+  grid-template-areas:
+  "A B C"; 
+}
+
+/* 
+}
+
+.section-header-top div:nth-child(2)  {
+  grid-area: B;
+}
+
+.section-header-top div:nth-child(3)  {
+  grid-area: C;
+} */
+
+/* .header-top-large {
+  display: grid;
+
+} */
+
+ul, li {
+  display: flex;
+  justify-content: space-between;  
+}
+
+
+.div-header-medium {
+  display: grid;
+  grid-template-areas:
+  "A B C"
+  "A B C"; 
+}
+
+.middle-left-page div:nth-child(1)  {
+  grid-area: A;
+}
+
+.nyt-logo div:nth-child(2) {
+  grid-area: B;
+}
+
+.stocks div .a:nth-child(3){
+  grid-area: C;
+}
+
+.middle-left-page {
+  display: flex;
 }

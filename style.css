@@ -7,7 +7,7 @@
 :root {
   font-size: 62.5%;
 
-  --font-size-nav: 1rem;
+  --font-size-nav: 1.1rem;
   --font-color-nav: gb(18, 18, 18);
 
   --color-background-elevated: hsla(0,0%,100%,1);
@@ -42,7 +42,7 @@
 }
 
 /* Start css border for adjustments*/
-.up {
+.top {
   border: 1px solid yellow;
   width: 120rem;
   margin: auto;
@@ -66,18 +66,23 @@
 .ul-nav-menu {
   width: 120rem;  
   display: flex;
+  justify-content: center;
+  gap: 10px;
+  
   font-family: "Arimo", "Libre Franklin", "Roboto", "Work Sans", sans-serif;
 
 
   font-size: var(--font-size-nav);
   color: var(--font-color-nav);
-  padding: 5px; 
+  padding: 5px 4px; 
+  margin:;
+
     
   }
 
-/* .nav-menu-a {
-  display: flex;
-} */
+.nav-menu-a {
+  padding: 4px;
+}
 
 a {
   color: var(--font-color-nav);
@@ -90,13 +95,14 @@ a {
 
 /* Finish css border for adjustments*/
 
-.header-top-large-nav {
-  display: block;
+a.header-top-large-nav {
+  display: flex;
+  justify-items: center;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  padding-inline-start: 40px;
+  padding: 7px 8px 6px;
 
   font-size: var(--font-size-nav);
 }
@@ -110,6 +116,10 @@ a {
 .span-header-top-large {
   font: var(--font-size-nav);
   font-size: 1rem;
+
+  display: flex;
+  justify-content: center;
+
 }
 
 .css-bars-navigation-button,
@@ -117,6 +127,7 @@ img .css-bars-navigation-button,
 img {
   width: 16px;
   height: 16px;
+  margin-left: 0;
 }
 
 .subscribe,

@@ -44,7 +44,7 @@
 
 /* Start css border for adjustments*/
 .top {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   width: 120rem;
   margin: auto;
 }
@@ -56,7 +56,7 @@
 }
 
 .bottom {
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   width: 120rem;
   margin: auto;
 }
@@ -95,7 +95,10 @@ a {
 
 .div-header-top-left {
  padding-top: 4px;
- 
+ display: flex;
+ margin-top: 3px;
+ margin-bottom: 10px;
+ gap: 20px 
 }
 
 a.header-top-large-nav {
@@ -112,10 +115,9 @@ a.header-top-large-nav {
 
 .div-header-top-right {
   display: flex;
-  justify-content: space-around;
+  justify-content: right;
   align-items: center;
-
-  border-radius:;
+  gap: 20px;
   
 }
 
@@ -134,10 +136,8 @@ a.header-top-large-nav {
 img .css-bars-navigation-button,
 img {
   width: 16px;
-  height: 16px;
-  margin-left: 0;
-  
-}
+  height: 16px;  
+  }
 
 .subscribe,
 .login {
@@ -153,10 +153,6 @@ img {
   text-transform: uppercase;
   border-radius: 3px;
   padding: 8px;
-}
-
-.span-subscribe, .span-login {
-
 }
 
 .section-header-top {

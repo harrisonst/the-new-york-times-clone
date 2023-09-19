@@ -9,6 +9,7 @@
 
   --font-size-nav: 1.1rem;
   --font-color-nav: gb(18, 18, 18);
+  --font-colour--login-subscribe: #FFFF;
 
   --color-background-elevated: hsla(0,0%,100%,1);
   --color-background-primary: hsla(0,0%,100%,1);
@@ -71,13 +72,10 @@
   
   font-family: "Arimo", "Libre Franklin", "Roboto", "Work Sans", sans-serif;
 
-
   font-size: var(--font-size-nav);
   color: var(--font-color-nav);
   padding: 5px 4px; 
-  margin:;
-
-    
+      
   }
 
 .nav-menu-a {
@@ -95,6 +93,11 @@ a {
 
 /* Finish css border for adjustments*/
 
+.div-header-top-left {
+ padding-top: 4px;
+ 
+}
+
 a.header-top-large-nav {
   display: flex;
   justify-items: center;
@@ -111,6 +114,9 @@ a.header-top-large-nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+  border-radius:;
+  
 }
 
 .span-header-top-large {
@@ -120,6 +126,8 @@ a.header-top-large-nav {
   display: flex;
   justify-content: center;
 
+  text-transform: uppercase;
+
 }
 
 .css-bars-navigation-button,
@@ -128,11 +136,27 @@ img {
   width: 16px;
   height: 16px;
   margin-left: 0;
+  
 }
 
 .subscribe,
 .login {
-  font-size:var(--font-size-nav)
+
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+  background-color: rgb(50, 104, 145) ;
+  border: 1px solid rgb(50, 104, 145);
+  font-size:var(--font-size-nav);
+  color: var(--font-colour--login-subscribe);
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 3px;
+  padding: 8px;
+}
+
+.span-subscribe, .span-login {
+
 }
 
 .section-header-top {

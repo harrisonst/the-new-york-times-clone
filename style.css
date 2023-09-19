@@ -43,9 +43,27 @@ body {
   width: 103.591rem;
 }
 
-div {
-  border: 1px solid red;
-  }
+
+/* Start css border for adjustments*/
+.up {
+    border: 2px solid yellow;
+    }
+
+ .medium {
+  border: 2px solid blue;
+ }
+
+ .bottom {
+  border: 2px solid green;
+  padding:;
+ }
+.div-header {
+  border: 2px solid black;
+  display: flex;
+}
+/* Finish css border for adjustments*/
+
+
 
  li {
     display: block;    

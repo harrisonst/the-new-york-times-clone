@@ -44,13 +44,40 @@
 
 /* Start css border for adjustments*/
 .top {
-  /* border: 1px solid yellow; */
+  border: 1px solid yellow;
   width: 120rem;
-  margin: auto;
+  
+  display: flex;
+  justify-content:center;
+  margin:auto;
+  
 }
 
 .medium {
   border: 1px solid blue;
+  width: 120rem;
+  margin: auto;
+
+  height: 7rem;
+
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.section-header-top {
+  display: flex;
+  
+
+
+}
+
+.div-header-top-left, .div-header-top-central, .div-header-top-right {
+  display: flex;
+}
+
+hr {
   width: 120rem;
   margin: auto;
 }
@@ -98,7 +125,7 @@ a {
  display: flex;
  margin-top: 3px;
  margin-bottom: 10px;
- gap: 20px 
+ gap: 20px; 
 }
 
 a.header-top-large-nav {
@@ -155,15 +182,29 @@ img {
   padding: 8px;
 }
 
-.section-header-top {
+/* .section-header-top {
   display: grid;
   grid-template-areas: "A B C";
-}
+} */
 
 li, ul  {
   display: flex;
   justify-content: space-between;
 }
+
+
+.medium-one, .medium-three {
+  border: 1px solid red;
+
+ 
+}
+
+.medium-two {
+  border: 1px solid black;
+  width: 500px;
+
+}
+
 
 /* 
 }

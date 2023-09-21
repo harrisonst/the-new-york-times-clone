@@ -167,6 +167,11 @@ button {
   justify-content: center;
 }
 
+.middle-left-page-p{
+  font-family: var(--font-family-nyt);
+  font-size: var(--font-size-12px);
+}
+
 .medium-two {
   /* border: 1px solid black; */
   width: 500px;
@@ -186,9 +191,10 @@ button {
   color:green;
 }
 
-hr {
+.horizontal-medium {
   width: 120rem;
   margin: auto;
+  color: var(--color-stroke-tertiary);
 }
 
 /* BOTTOM ADJUSTMENTS */
@@ -227,5 +233,10 @@ li, ul  {
   justify-content: space-between;
 }
 
+.horizontal-bottom {
+  width: 120rem;
+  margin: auto;
+  color:--
+}
 
 

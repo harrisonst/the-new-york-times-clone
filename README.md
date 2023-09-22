@@ -1,2 +1,2 @@
-# news-clone
-News clone
+# The New York Times clone
+Clone from NYT journal.

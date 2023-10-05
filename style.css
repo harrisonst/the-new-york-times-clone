@@ -10,8 +10,8 @@
   --font-family-nyt: "Arimo", "Libre Franklin", "Roboto", "Work Sans",
     sans-serif;
 
-  --font-size-10px: 1.1rem;
-  --font-size-12px: 1.2rem;
+  --font-size-10px: 1rem;
+  --font-size-12px: 1.1rem;
   --font-color-nav: gb(18, 18, 18);
   --font-colour--login-subscribe: #ffff;
 
@@ -45,6 +45,11 @@
   --color-stroke-inversePrimary: hsla(0, 0%, 100%, 1);
   --color-static-white: hsla(0, 0%, 100%, 1);
   --color-static-gray100: hsla(0, 0%, 0%, 1);
+}
+
+body {
+  color: var(--color-content-primary);
+  background: var(--color-background-primary);
 }
 
 /* HEADER-START */
@@ -182,17 +187,13 @@
     color: green;
   }
 
-  .horizontal-medium {
-    width: 120rem;
-    margin: auto;
-    color: var(--color-stroke-tertiary);
-  }
-
-  /* BOTTOM ADJUSTMENTS */
+/* BOTTOM ADJUSTMENTS */
 
   .bottom {
     width: 120rem;
     margin: auto;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 4px double #000;
   }
 
   .ul-nav-menu {
@@ -200,22 +201,19 @@
     display: flex;
     justify-content: center;
     gap: 10px;
+    
 
     font-family: var(--font-family-nyt);
 
     font-size: var(--font-size-12px);
     color: var(--font-color-nav);
     padding: 5px 4px;
+
+
   }
 
   .nav-menu-a {
     padding: 4px;
-  }
-
-  .horizontal-bottom {
-    width: 120rem;
-    margin: auto;
-    color: var(--color-overlay-black);
   }
 
   /* GENERAL ADJUSTMENTS */
@@ -230,16 +228,20 @@
     display: flex;
     justify-content: space-between;
   }
-
+  
 /* HEADER-END */
 
 /* PAGE-START */
-main {
+.container {
  display: grid;
- grid-template-columns: repeat(2, 1fr)
+ grid-template-columns: 2fr, 1fr;
+ width: 120rem;
+ margin: auto;
 }
-  section {
+  .page-left {
     display: grid;
+    /* border: 1px solid red; */
+   
   }
     .first-part {
       display: flex;
@@ -256,6 +258,7 @@ main {
 
   aside {
     display: flex;
+    border: 1px solid blue;
   }
 
 /* PAGE-END */

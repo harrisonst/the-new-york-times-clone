@@ -220,7 +220,7 @@ body {
     padding: 4px;
   }
 
-  /* GENERAL ADJUSTMENTS */
+  /* ORDINARY ADJUSTMENTS */
 
   a {
     color: var(--font-color-nav);
@@ -235,10 +235,11 @@ body {
   
 /* HEADER-END */
 
+
 /* PAGE-START */
 .container {
  display: grid;
- grid-template-columns: 10fr 3fr; 
+ grid-template-columns: 9fr 3.8fr; 
  width: 120rem;
  margin: auto;
  padding-top: 20px;
@@ -247,7 +248,7 @@ body {
 }
   .page-left {
     display: grid;
-    border: 1px solid green;
+    /* border: 1px solid green; */
        
   }
     .first-part {
@@ -257,7 +258,7 @@ body {
     }
 
     .left {
-      width: 350px;
+      width: 300px;
     }
 
       .left h3 {
@@ -266,26 +267,35 @@ body {
        line-height: 1.15em;
        margin-right: 20px;
        font-weight: 700;
-      }     
+       margin-bottom: 10px;
+      }    
       
-    
-    .central img {
-      width: 270px;
-      height: 400px;
+      
+    .central {
+      width: auto;
       margin-right: 10px;
+
     }
+      .central img {
+        width: auto;
+        height: 400px; 
+        margin-bottom: 5px;     
+      }
           
     
     .vertical-line {
       margin-top: 10px;
       margin-bottom: 10px;
       border-left: 1px solid;
-      color: var(--color-static-gray100);
-      height: 300px;
+      color: var(--color-stroke-tertiary);
+      height: 400px;
     }
     
     .rigth {
-      margin-left: 15px;  
+      width: 20rem;
+      margin-left: 15px;
+      margin-right: 20px;  
+      font-size: 1.5rem;
     }
 
       .rigth h3 {
@@ -293,12 +303,13 @@ body {
         padding-bottom: 5px;
         font-size: var(--font-size-10px);
         border: 1px solid salmon;
-      }
+      }      
 
     aside {
-    display: flex;
+    display: flex;    
     /* border: 1px solid blue; */
   }
+  
 
   /* ORDINARY ADJUSTMENTS */
   .minute-read {
@@ -308,11 +319,30 @@ body {
     margin-top: 5px;
   }
 
-  .text {
+  /* .text {
     font-family: var(--font-family-nyt);
     font-size: 0.875rem;
-    color:var(--color-content-tertiary) ;
+    color:var(--color-content-tertiary);
 
+  } */
+
+  .text {        
+    font-family: var(--font-family-nyt);
+    color:var(--color-content-tertiary);
+    font-size: 1.3rem;
+    letter-spacing: 0.08rem;         
+    line-height: 1.5em;
+    margin-right: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  p.credit-picture {
+    width: auto;
+    font-family: var(--font-size-10px);
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 5px;     
   }
 
 /* PAGE-END */

@@ -244,15 +244,16 @@ body {
  margin: auto;
  padding-top: 20px;
 
- border: 1px solid red;
+ /* border: 1px solid red; */
 }
   .page-left {
-    display: grid;
+    display: grid;    
     /* border: 1px solid green; */
        
   }
     .first-part {
       display: flex;
+      
       /* border: 1px solid pink; */
 
     }
@@ -268,8 +269,7 @@ body {
        margin-right: 20px;
        font-weight: 700;
        margin-bottom: 10px;
-      }    
-      
+      }          
       
     .central {
       width: auto;
@@ -280,11 +280,9 @@ body {
         width: auto;
         height: 400px; 
         margin-bottom: 5px;     
-      }
-          
+      }          
     
     .vertical-line {
-      margin-top: 10px;
       margin-bottom: 10px;
       border-left: 1px solid;
       color: var(--color-stroke-tertiary);
@@ -299,8 +297,7 @@ body {
       .rigth h3 {
         text-transform: uppercase;
         padding-bottom: 5px;
-        font-size: var(--font-size-10px);
-        /* border: 1px solid salmon; */
+        font-size: var(--font-size-10px);       
       }      
 
       .rigth p strong {
@@ -314,25 +311,41 @@ body {
 
   aside {
     display: flex; 
-    width: auto;   
-    /* border: 1px solid blue; */
+    width: auto;       
   }
-  
-    .vertical-line-perpetual {
-      margin-top: 10px;
+    
+    .vertical-line-perpetual {      
         margin-bottom: 10px;
         border-left: 1px solid;
         color: var(--color-stroke-tertiary);
         height: 400px;
     }
 
-    .aside-image {
-      width: 33rem;
-      height: 23rem;
+    .aside-whole {
+      width: auto;     
+      display:grid;
+      justify-items: end;     
     }
 
+    .aside-image {
+      width: 33rem;
+      height: 20rem;
+    }
 
-
+    .aside-bottom {
+      display: grid;        
+      margin-right: 20px;
+      margin-left: 20px;        
+    }
+      
+      .h2-aside-bottom {
+       color: var(--color-content-primary);
+       font-size: 2rem;
+       letter-spacing: 0.1rem;
+       line-height: 2.5rem;      
+       font-weight: 400;
+      
+      }
 
 
   /* ORDINARY ADJUSTMENTS */
@@ -340,26 +353,29 @@ body {
     text-transform: uppercase;
     color: var(--color-content-quaternary);
     font-family: var(--font-family-nyt);
+    letter-spacing: 0.1rem;
+    font-size: 9px;
     margin-top: 5px;
   } 
 
   .text {        
     font-family: var(--font-family-nyt);
     color:var(--color-content-tertiary);
-    font-size: 1.3rem;
-    letter-spacing: 0.08rem;         
-    line-height: 1.5em;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;         
+    line-height: 1.9rem;
     margin-right: 20px;
-    font-weight: 500;
-    margin-bottom: 10px;
+    font-weight: 400;    
   }
 
   .credit-picture {
     width: auto;
     font-family: var(--font-size-10px);
+    color: var(--color-content-quaternary);
     display: flex;
     justify-content: flex-end;
-    padding-left: 50px;     
+    padding-left: 50px;
+    margin-top: 5px;     
   }
 
 /* PAGE-END */

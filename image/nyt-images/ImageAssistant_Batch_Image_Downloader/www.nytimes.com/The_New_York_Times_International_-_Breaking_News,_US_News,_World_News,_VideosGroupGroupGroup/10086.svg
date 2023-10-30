@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Embed-16</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Embed-16" fill="#FFFFFF">
+            <g id="Embed" transform="translate(0.000000, 1.000000)">
+                <polygon id="Right" transform="translate(16.000000, 7.000000) scale(-1, 1) translate(-16.000000, -7.000000) " points="14.6666667 7 20 1.4 18.6666667 0 12 7 18.6666667 14 20 12.6"></polygon>
+                <polygon id="Left" points="2.66666667 7 8 1.4 6.66666667 0 2.04321365e-13 7 6.66666667 14 8 12.6"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

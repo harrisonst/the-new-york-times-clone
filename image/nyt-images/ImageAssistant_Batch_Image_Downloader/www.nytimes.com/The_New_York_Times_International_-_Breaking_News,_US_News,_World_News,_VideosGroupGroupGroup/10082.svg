@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="replay-button-small-breakpoint" transform="translate(1.000000, 5.000000)" fill-rule="nonzero" fill="#F7F7F7">
+            <g id="Symbols">
+                <g id="Replay-Cover-40">
+                    <path d="M9.57582176,31.0246274 L11.6557865,30.207854 C14.4449133,32.5732847 18.0552671,34 21.9988481,34 C30.8354041,34 37.9988481,26.836556 37.9988481,18 C37.9988481,9.163444 30.8354041,2 21.9988481,2 C13.8396128,2 7.10683179,8.1073768 6.12263561,16 L4.10985756,16 C5.10474613,7.00009908 12.7348927,0 22,0 C31.9411255,0 40,8.0588745 40,18 C40,27.9411255 31.9411255,36 22,36 C17.1821577,36 12.8064064,34.1071838 9.57582176,31.0246274 Z M4.56111391,21.2762598 L0.215526998,16.7237402 C-0.167392854,16.3225861 -0.0264933284,16 0.527157384,16 L10.5222108,16 C11.0689231,16 11.2025254,16.3081518 10.8051225,16.6882763 L5.97151839,21.3117237 C5.57164606,21.6942103 4.94265591,21.6759705 4.56111391,21.2762598 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

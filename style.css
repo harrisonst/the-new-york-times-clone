@@ -278,15 +278,14 @@ body {
     }
       .central img {
         width: auto;
-        height: 400px; 
-        margin-bottom: 5px;     
+        height: 400px;            
       }          
     
     .vertical-line {
-      margin-bottom: 10px;
+      margin-bottom: 30px;
       border-left: 1px solid;
       color: var(--color-stroke-tertiary);
-      height: 400px;
+      height: 420px;
     }
     
     .rigth {
@@ -380,7 +379,7 @@ body {
     display: flex;
     justify-content: flex-end;
     padding-left: 50px;
-    margin-top: 5px;     
+    margin-top: 4px;     
   }
 
 /* PAGE-END */

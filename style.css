@@ -343,9 +343,14 @@ body {
        font-size: 2rem;
        letter-spacing: 0.1rem;
        line-height: 2.5rem;      
-       font-weight: 400;
-      
+       font-weight: 400;      
       }
+    
+    .aside-hr {    
+      width: 336px;
+      border-top: 1px solid var(--color-stroke-quaternary,#DFDFDF);        
+      margin-top:  10px;
+    }
 
 
   /* ORDINARY ADJUSTMENTS */
